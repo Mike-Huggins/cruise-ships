@@ -24,8 +24,8 @@
   };
 
   if (typeof module !=='undefined' && module.exports) {
-    module.exports = Controller;
+    module.exports = Ship;
   } else {
-    window.Controller = Controller;
+    window.Ship = Ship;
   }
 }());
