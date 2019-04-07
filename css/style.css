@@ -37,4 +37,22 @@ body {
     position: absolute;
   }
 
+  #sailbutton {
+    border: 0;
+    background-color: #FB3640;
+    border-bottom: 4px solid #D8040F;
+    color: white;
+    font-family: inherit;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+}
 
+#sailbutton:focus {
+    background-color: #D8040F;
+    border-bottom-width: 0;
+    padding-top: 14px;
+}
